@@ -1,0 +1,4 @@
+pyasn1
+pypiwin32
+wincertstore
+pyasn1-modules
