@@ -48,6 +48,7 @@ Software written by Jeff Gonzalez of GNZ Systems and Consulting, Inc.
 
 """
 
+
 class CertificateStoreManager:
 
     def __init__(self, logCallback):
@@ -901,6 +902,8 @@ class Core:
                 msg = "%s\n" % self.logQueue.pop(0)
                 with open(logfile, "a") as outfile:
                     outfile.write(msg)
+            else:
+                time.sleep(5)
         return
 
     def _centralized_stdout(self):
@@ -908,6 +911,8 @@ class Core:
             if self.msgQueue:
                 msg = "%s\n" % self.msgQueue.pop(0)
                 sys.stdout.write(msg)
+            else:
+                time.sleep(5)
         return
 
     def _flush_messages(self):
