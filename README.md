@@ -12,7 +12,7 @@ CSM is the security tool that I never knew I needed.  Based off of a concept ini
 ## Installation
 
  * **Quick Setup**: A goal of this project was to be completely portable.  The compiled executable requires no installation.  **Simply download the compiled executable, extract it anywhere on your computer, and run it.**  You may receive a UAC prompt as the utility escalates its permissions.
-    * **[Download the pre-compiled binary from the GNZ Systems website by clicking here!](https://www.gnzsystems.com/software/csm-0.0.1a-win32-python27.zip)**
+    * **[Download the pre-compiled binary from the GNZ Systems website by clicking here!](https://www.gnzsystems.com/software/csm.html)**
   
  * **From Source**: CSM requries a few external modules.  They're included in the requirements.txt file.  On a Python 2.7 install simply run the command **pip install -r requirements.txt** to get yourself up and running!
 
